@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Interregular.ttf) format('truetype'),
+         url(../fonts/Interregular.woff) format('woff'),
+         url(../fonts/Interregular.woff2) format('woff2');
+    font-weight: normal;
+  }
+  @font-face {
+      font-family: 'Inter';
+      src: url(../fonts/Intersemibold.ttf) format('truetype'),
+           url(../fonts/Intersemibold.woff) format('woff'),
+           url(../fonts/Intersemibold.woff2) format('woff2');
+      font-weight: bold;
+  }
