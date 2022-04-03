@@ -1,4 +1,8 @@
 .table__cell {
     width: 250px;
     margin-top: 60px;
+    list-style: none;
+  }
+  .table__cell p:last-of-type {
+    margin-bottom: 0;
   }
