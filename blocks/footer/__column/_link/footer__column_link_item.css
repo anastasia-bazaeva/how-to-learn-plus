@@ -3,3 +3,6 @@
     margin: 10px 0;
     padding: 0;
   }
+  .footer__column_link_item:first-child {
+    margin-top: 0;
+  }

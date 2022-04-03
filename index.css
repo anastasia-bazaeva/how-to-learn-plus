@@ -15,9 +15,9 @@
 @import url(./blocks/content/__two_columns/content__two_columns.css);
 @import url(./blocks/content/__brief/content__brief.css);
 @import url(./blocks/content/__main-text/content__main-text.css);
-@import url(./blocks/content/__paragraph/_paragraph/content__paragraph_line.css);
-@import url(./blocks/content/__paragraph/_paragraph/content__paragraph_span.css);
-@import url(./blocks/content/__paragraph/_paragraph/content__paragraph_span-accent.css);
+@import url(./blocks/content/__paragraph/content__paragrath.css);
+@import url(./blocks/content/__paragraph/_paragraph/content__line.css);
+@import url(./blocks/content/__paragraph/_paragraph/content__span-accent.css);
 @import url(./blocks/techniques/techniques.css);
 @import url(./blocks/title/title.css);
 @import url(./blocks/title/_theme/title__theme_dark.css);
@@ -28,6 +28,7 @@
 @import url(./blocks/cards/__item/cards__item.css);
 @import url(./blocks/cards/__title/cards__title.css);
 @import url(./blocks/cards/__subtitle/cards__subtitle.css);
+@import url(./blocks/oakley/oakley.css);
 @import url(./blocks/digits/digits.css);
 @import url(./blocks/table/table.css);
 @import url(./blocks/table/__cell/table__cell.css);
@@ -53,5 +54,60 @@
 @import url(./blocks/footer/__author/_text/footer__author_text_name.css);
 @import url(./blocks/footer/__column/_link/footer__column_link-logo.css);
 @import url(./blocks/footer/__column/_link/footer__column_link_item.css);
+div {
+    border: 1px solid red;
+}
+section {
+    border: 1px solid teal;
+}
 
-
+.feynman {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    min-height: 890px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*.feynman__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}*/
+.feynman__illustration {
+    height: 637px;
+    width: 867px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.feynman__title {
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+    z-index: 1;
+    width: 648px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+.feynman__subtitle {
+    z-index: 1;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+}
+.feynman__link {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    color: #2f80ed;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+}

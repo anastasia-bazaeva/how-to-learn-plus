@@ -2,8 +2,7 @@
     align-self: flex-start;
     position: absolute;
     z-index: 99999;
-    background-image: url(../../../images/logo.svg);
-    background-position: center;
+    background-image: url(../../../images/logo_place_header.svg);
     background-repeat: no-repeat;
-    padding-top: 30pt;
+    margin-top: 30px;
   }
