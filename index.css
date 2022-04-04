@@ -114,6 +114,42 @@ li {
 .khan {
     background-color: #f2f2f2;
 }
+.khan__author {
+line-height: 42px;
+font-size: 30px;
+font-weight: normal;
+margin: 0;
+}
+
+.khan__title {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.khan__quote {
+    width: 790px;
+    margin: 50px 0 36px 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.khan__quote-author {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.khan__quote-author-subline {
+    margin: 10px 0 68px 0;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: normal;
+}
+
 .khan__container {
 width: 80%;
 margin: 0 auto;
@@ -135,4 +171,7 @@ margin: 0 auto;
     padding-left: 48px;
     text-decoration: none;
     color: #2f80ed;
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
 }
