@@ -4,7 +4,3 @@
     margin: 0 auto;
     display: block;
   }
-  .page a:hover {
-    transition: .7s;
-    opacity: .55;
-  }

@@ -1,0 +1,12 @@
+.footer__column-link {
+  margin: 10px 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+.footer__column-link:last-child {
+  margin: 0 0 16px 0;
+}
+.footer__column-link:first-child {
+    margin: 0;
+}

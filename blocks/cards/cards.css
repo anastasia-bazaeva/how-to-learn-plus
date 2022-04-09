@@ -1,8 +1,12 @@
 .cards {
   width: 80%;  
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
   text-align: center;
+  padding: 0;
+  column-gap: 100px;
+  padding-left: 100px;
   }

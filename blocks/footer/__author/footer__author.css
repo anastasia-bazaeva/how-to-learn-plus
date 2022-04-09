@@ -1,5 +1,9 @@
 .footer__author {
-    box-sizing: border-box;
-    width: 90%;
-    margin: 0 auto;
-  }
+  width: 90%;
+  text-align: left;
+  margin: 18px 0;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
