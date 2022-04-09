@@ -2,8 +2,11 @@
     display: inline;
     padding: 0;
     margin-right: 20px;
-    
+    width: 513px;
+    height: 316px;
+    border: none;
 }
-.video__iframe li:last-of-type {
+
+.video__iframe:last-child {
     margin:0;
 }
