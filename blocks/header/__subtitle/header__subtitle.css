@@ -1,7 +1,6 @@
 .header__subtitle {
     position: absolute;
     align-self: flex-end;
-    z-index: 99999;
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
