@@ -4,4 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
   }
- 
+ .resources__logo:hover {
+  transition: .7s;
+  opacity: .55;
+}

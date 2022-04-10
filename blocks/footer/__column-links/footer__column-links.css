@@ -6,5 +6,10 @@
     line-height: 18px;
     font-weight: normal;
     list-style: none;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
   }
  
+  

@@ -5,4 +5,9 @@
     line-height: 42px;
     font-size: 30px;
     font-weight: normal;
+    align-self: flex-start; /* Знаю, что не было комментария тут что-то делать, но пока не написала, курсор и hover-эффект срабатывал на всей области правее от __book-pic, а так только на тексте*/
 }
+.khan__buy-link:hover {
+    transition: .7s;
+    opacity: .55;
+  }

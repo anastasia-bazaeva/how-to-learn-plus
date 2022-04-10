@@ -4,9 +4,7 @@
   text-decoration: none;
   color: white;
 }
-.footer__column-link:last-child {
-  margin: 0 0 16px 0;
-}
-.footer__column-link:first-child {
-    margin: 0;
+.footer__column-link:hover {
+  transition: .7s;
+  opacity: .55;
 }
